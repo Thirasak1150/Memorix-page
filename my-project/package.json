@@ -3,8 +3,10 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://Thirasak1150.github.io/Memorix-page",
     "scripts": {
-        "deploy": "vite build && gh-pages -d dist"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "react": "^18.3.1",
